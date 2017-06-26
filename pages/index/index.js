@@ -115,6 +115,8 @@ Page({
     var provinceIndex = parseInt(e.detail.value)
     this.setData({
       provinceIndex: provinceIndex,
+      cityIndex: 0,
+      districtIndex: 0,
     })
     this.refreshPicker()
 
@@ -124,6 +126,7 @@ Page({
     var cityIndex = e.detail.value
     this.setData({
       cityIndex: cityIndex,
+      districtIndex: 0,
     })
     this.refreshPicker()
   },
