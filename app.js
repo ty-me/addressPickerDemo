@@ -8,7 +8,7 @@ App({
     // 拉取地址数据库保存到本地
     // TODO 网络异常处理
     wx.request({
-      url: 'https://raw.githubusercontent.com/ewen0930/china-citylist/master/data/行政区划代码.json',
+      url: 'https://raw.githubusercontent.com/ty-me/cityDddressPickerDemo/master/addressData.json',
       success:function(res){
         console.log(res);
         if(res.statusCode != 200){
