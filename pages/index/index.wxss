@@ -1,0 +1,6 @@
+/**index.wxss**/
+picker{
+  width:100%; 
+  overflow:hidden;
+  padding:0 0px 0 10px;
+}
